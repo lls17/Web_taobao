@@ -1,0 +1,20 @@
+body, dl, dd, h1, h3, h4{
+	margin: 0;
+}
+img{
+	border: none;
+	vertical-align: top;	
+}
+a{
+	text-decoration: none;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+input{
+	padding: 0;
+	/* 给input加向左浮动，解决空隙问题*/
+	float: left;
+}

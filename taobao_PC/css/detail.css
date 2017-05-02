@@ -1,0 +1,34 @@
+.box .box_head{
+	height: 35px;
+	line-height: 36px;
+	overflow: hidden;
+	border-bottom: 1px solid #eee;
+}
+
+/* 头部搜索（右）*/
+.search .search_box .search_input{
+	width: 279px;
+	height: 26px;
+	border: 2px solid #ff4400;
+}
+.search .search_box .search_tb{
+	width: 54px;
+	padding-left: 15px;
+	margin-right: 3px;
+	height: 30px;
+	line-height: 32px;
+	overflow: hidden;
+	background-color: #ff4400;
+	color: #fff;
+}
+.search .search_box .search_local{
+	height: 28px;
+	width: 71px;
+	line-height: 30px;
+	overflow: hidden;
+	text-align: center;
+	border: 1px solid #ffb086;
+	background-color: #ffe4d0;
+	color: #ff4400;
+}
+

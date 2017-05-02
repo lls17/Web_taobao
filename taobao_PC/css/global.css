@@ -1,0 +1,121 @@
+body{
+	font-size: 12px;
+	color: #3c3c3c;
+	font-family: tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+a{
+	color: #3C3C3C;
+}
+
+.box .cont{
+	width: 1190px;
+	margin: 0 auto;
+}
+
+/* 头部-图标*/
+.list_ico{
+	background: url(../img/list_ico.png) no-repeat;
+}
+.list_title{
+	display: inline-block;
+	background: url(../img/list_title.png) no-repeat;
+}
+/* search页-图标*/
+.list_search{
+	display: inline-block;
+	background: url(../img/list_search.png) no-repeat;
+}
+
+/* 头部*/
+.box .box_head{
+	border-bottom: 1px solid #eee;
+	line-height: 38px;
+	background-color: #f5f5f5;
+}
+.box_head .head_left{
+	float: left;
+	margin-left: 6px;
+	word-spacing: 3px;
+}
+.box_head .head_left a{
+	color: #6c6c6c;
+}
+.box_head .head_left a:hover{
+	color: #ff4400;
+}
+.box_head .head_left a.login{
+	color: #f22e00;
+}
+.box_head .head_right{
+	float: right;
+	margin-right: -6px;
+}
+.box_head .head_right .item{
+	float: left;
+}
+.box_head .head_right .item span{
+	float: left;
+}
+.box_head .head_right .header_ico{
+	width: 12px;
+	height: 12px;
+	margin: 11px 5px 0 0;
+}
+.box_head .head_right .i_more{
+	background-position: 0 0;
+	margin: 12px 14px 0 5px;
+}
+.box_head .head_right .i_car{
+	background-position: -14px 0;
+}
+.box_head .head_right .i_like{
+	background-position: -28px 0;
+}
+.box_head .head_right .i_map{
+	background-position: -42px 0;
+}
+
+/* 头部logo*/
+.box_main .search{
+	margin-top: 16px;
+	height: 43px;
+}
+.search .search_head{
+	width: 200px;
+}
+.search_head .title{
+	float: left;
+	width: 104px;
+	background: url(../img/logo_taobao.png) no-repeat;
+}
+.search_head .title a{
+	display: block;
+	height: 43px;
+	text-indent: -9999px;
+}
+.search_head .title_op{
+	float: right;
+	height: 22px;
+	margin-top: 10px;
+}
+.search_head .title_op a{
+	float: left;
+	height: 22px;
+	width: 78px;
+	color: #666666;
+	border: 1px solid #e2e2e2;
+	font-weight: normal;
+	border-radius: 2px;
+}
+.search_head .title_op .info{
+	height: 22px;
+	line-height: 21px;
+	font-size: 12px;
+	margin-left: 10px;
+}
+.search_head .title_op .i_more{
+	height: 4px;
+	width: 7px;
+	background-position: 0 0;
+	margin: 10px 0 0 6px;
+}

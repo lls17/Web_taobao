@@ -1,0 +1,59 @@
+/*清浮动*/
+.clearfix{
+	zoom: 1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.color1{
+	color: #9a745f;
+}
+.color2{
+	color: #81c18f;
+}
+.color3{
+	color: #72a5f6;
+}
+.color4{
+	color: #8494dd;
+}
+.color5{
+	color: #de525e
+}
+.noborder{
+	border: none!important;
+}
+.noborder_r{
+	border-right: none!important;
+}
+.noborder_b{
+	border-bottom: none!important;
+}
+.mg0{
+	margin: 0!important;
+}
+.mg0_bottom{
+	margin-bottom: 0!important;
+}
+
+/*背景色——测试占位用*/
+.pink{
+	background-color: pink;
+}
+.green{
+	background-color: lightgreen;
+}
+.orange{
+	background-color: orange;
+}
+.purple{
+	background-color: mediumpurple;
+}

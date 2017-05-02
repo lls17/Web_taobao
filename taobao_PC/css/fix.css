@@ -1,0 +1,88 @@
+/* 解决IE6下不支持display:inline-block; */
+.list_ico, .list_title, .list_search{
+	display: inline;
+	zoom: 1;
+}
+.head_right .item, 
+.result .res_page a, 
+.res_page .page_group,
+.res_page .skip,
+.res_page .skip a.confirm,
+.bottom .search .bottom_btn,
+.res_page .skip .page_num{
+	display: inline;
+	zoom: 1;
+}
+/* 解决IE6下最小高度19px*/
+.list_ico, .list_title, .list_search, .op_down .op_check{
+	overflow: hidden;
+}
+/* 解决最边上的浮动元素有margin时的双边距问题*/
+.box_head .head_right, .box_head .head_left{
+	display: inline;
+}
+/* 同样是宋体，字的宽度不同，行高不同，需重设*/
+.title_right .nav_brand{
+	letter-spacing: 0px;
+}
+.title_right .nav_brand a{
+	margin-right: 2px;
+}
+.title_right .nav_mode{
+	line-height: 36px;
+	letter-spacing: 0px;
+}
+.cont_head .cont_more{
+	line-height: 21px;
+}
+.cont_head .cont_more .i_more{
+	vertical-align: -1px;
+}
+
+.news_main .main_right strong{
+	line-height: 28px;
+	height: 28px;
+}
+.goods_item .item_right .title_tag{
+	line-height: 19px;
+}
+.goods_item .item_right .num{
+	line-height: 28px;
+}
+.must_head .head_title{
+	letter-spacing: -1px;
+	height: 14px;
+}
+.self .self_btn a{
+	letter-spacing: -1px;
+}
+.self .self_opt{
+	line-height: 18px;
+}
+.hot_item a .hot_always{
+	vertical-align: -1px;
+}
+.item_left .hot_list .hot_item a{
+	display: inline;
+	overflow: hidden;
+}
+.hot_item a span{
+	display: inline;
+}
+.op_down .op_check{
+	top: 13px;
+}
+.op_down .item_last .i_more{
+	top: 19px;
+}
+.classify .num .i_right{
+	margin-top: 16px;
+}
+/* IE6不支持透明度*/
+.always_item .always_bg,
+.always_title .detail,
+.mode2 .mode_bottom .detail,
+.home_item .pic_info .bg{
+	filter:alpha(opacity=60);
+}
+
